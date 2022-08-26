@@ -1,9 +1,8 @@
 {
     "name": "page-load-time",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "通过js计算页面加载时间",
     "main": "dist/index.umd.js",
-    "module": "dist/index.umd.js",
     "scripts": {
         "dev": "NODE_ENV=development ENV=daily rollup -c -w",
         "build": "NODE_ENV=production ENV=prod  rollup -c"
@@ -13,11 +12,12 @@
         "page-load-time",
         "page-time"
     ],
-    "author": "徐崇玉",
+    "author": {
+        "name": "xcy960815",
+        "email": "18763006837@163.com"
+    },
     "license": "MIT",
     "devDependencies": {
-        "@rollup/plugin-commonjs": "^16.0.0",
-        "@rollup/plugin-node-resolve": "^10.0.0",
         "babel-core": "^6.9.1",
         "babel-loader": "^6.2.4",
         "babel-plugin-add-module-exports": "^0.2.1",
