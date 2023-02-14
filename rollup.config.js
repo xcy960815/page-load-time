@@ -11,10 +11,12 @@ export default {
         {
             file: './dist/page-load-time.umd.js',
             format: 'umd',
+            name: 'pageLoadTime',
         },
         {
             file: './demo/page-load-time.umd.js',
             format: 'umd',
+            name: 'pageLoadTime',
         },
     ],
     plugins: [
